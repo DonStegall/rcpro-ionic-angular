@@ -1,0 +1,46 @@
+.TitleFont {
+    color: navy !important;
+}
+
+.HeaderTable {
+    // border: 1px solid red;
+    background-color: #00009F !important;
+    border-spacing: 2px !important;
+    border-collapse: separate !important;
+}
+
+.HeaderTableCell {
+    // border: 1px solid magenta;
+    background-color: ghostwhite !important;
+    padding: 4px 4px 4px 4px !important;
+    // border-spacing: 14px;
+    // border-collapse: separate !important;
+}
+
+.HeaderTableMissionStatement {
+    font-family: Verdana, SansSerif, Sans-Serif !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    font-size: small !important;
+    color: navy !important;
+}
+
+.HeaderTableSocialNetwork {
+    font-family: Verdana, SansSerif, Sans-Serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: smaller !important;
+    color: navy !important;
+}
+
+.HeaderTableSocialNetworkLink {
+    font-family: Verdana, SansSerif, Sans-Serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: small !important;
+    color: blue !important;
+}
+
+.OutlineMe {
+    border: 1px solid green;
+}

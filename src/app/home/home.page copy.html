@@ -1,0 +1,162 @@
+<ion-header [translucent]="false">
+   <ion-toolbar>  <!-- style="height:60px;" -->
+    <ion-buttons slot="start">
+      <ion-menu-button class="TitleFont" style="height:60px; vertical-align: middle !important;"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      <div [hidden]='ShowFullHeader()' style="display:inline; width:130px; height:60px; vertical-align: middle !important;">
+        <img alt="RCPRO" src="../../assets/img/LogoAnimated.gif" title="RCPRO Home" style="width:130px; height:45px; vertical-align: middle !important; border: 1px solid #00009F"/>
+      </div>
+      <div [hidden]='ShowFullHeader()' class="TitleFont" style="display:inline; height:45px;">
+        <span class="TitleFont" style="height:45px; vertical-align: middle !important;">&nbsp;Home</span>
+      </div>
+      <div [hidden]='!ShowFullHeader()' class="TitleFont" style="display:inline; height:25px;">
+        <span class="TitleFont" style="height:25px; vertical-align: middle !important;">RCPRO Home</span>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+  <!-- <table class="HeaderTable">
+    <tr>
+     <td>
+      <table >
+       <tr class="HeaderTable">
+          <td rowspan="2">
+            <div style="width:257px; height:83px;" >
+              <img alt="RCPRO" src="../../assets/img/LogoAnimated.gif" title="RCPRO Home" style="width:257px; height:83px" onclick="javascript:document.location.href='http://RCPylonSuppliers.com'"/>
+            </div>
+          </td>
+          <td>
+            <font size="2" face="Verdana, SansSerif, Sans-Serif" color="navy"><b><i>Spreading the fun and excitement of pylon racing to all R/C modelers
+           regardless of the type of aircraft they build or fly, from Park Flyers to Giant Scale, on 2 pole or 3 pole pylon courses.</i></b></font>
+          </td>
+        </tr>
+        <tr>
+          <td><font size="2" face="Verdana, SansSerif, Sans-Serif" color="navy">Visit <a href="http://www.facebook.com/pages/RCPROorg/223516891052909" target="_blank"><font color="blue">RCPRO.org</font></a> and <a href="http://www.facebook.com/club40racing" target="_blank"><font color="blue">Club 40 Racing</font></a> on Facebook. Join the social network.</font></td>
+        </tr>
+      </table>
+     </td>
+    </tr>
+ </table> -->
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-header collapse="condense"> -->
+    <!-- <ion-toolbar>
+      <ion-title size="large">RCPRO.org</ion-title> -->
+      <!-- <ion-title>
+        <div [hidden]='ShowFullHeader()' style="display:inline; width:130px; height:45px; vertical-align: middle;">
+          <img alt="RCPRO" src="../../assets/img/LogoAnimated.gif" title="RCPRO Home" style="width:130px; height:45px; border: 1px solid #00009F"/>
+        </div>
+        <div [hidden]='ShowFullHeader()' class="TItleFont" style="display:inline; height:43px; vertical-align: middle;">
+          &nbsp;Home
+        </div>
+        <div [hidden]='!ShowFullHeader()' class="TItleFont" style="display:inline; height:43px; vertical-align: middle;">RCPRO Home</div>
+      </ion-title> -->
+    <!-- </ion-toolbar> -->
+  <!-- </ion-header> -->
+
+  <div id="container">
+
+    <!-- <ion-img alt="RCPRO" src="RCPRO_logo_smaller.jpg"/> -->
+
+    <!-- <p>home - Hello RCPRO Home</p> -->
+
+    <!-- <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
+      <tr>
+       <td width="100%" style="width:257px; height:83px">
+        <table cellspacing="2" cellpadding="4" border="0" bgcolor="#000080" width="100%" id="Table1">
+         <tr bgcolor="ghostwhite">
+            <td rowspan="2">
+              <img alt="RCPRO" src="../../assets/img/LogoAnimated.gif" title="RCPRO Home" style="width:257px; height:83px" onclick="javascript:document.location.href='http://RCPylonSuppliers.com'"/>
+            </td>
+            <td><font size="2" face="Verdana, SansSerif, Sans-Serif" color="navy"><b><i>Spreading the fun and excitement of pylon racing to all R/C modelers
+             regardless of the type of aircraft they build or fly, from Park Flyers to Giant Scale, on 2 pole or 3 pole pylon courses.</i></b></font></td>
+         </tr>
+         <tr bgcolor="ghostwhite">
+            <td><font size="2" face="Verdana, SansSerif, Sans-Serif" color="navy">Visit <a href="http://www.facebook.com/pages/RCPROorg/223516891052909" target="_blank"><font color="blue">RCPRO.org</font></a> and <a href="http://www.facebook.com/club40racing" target="_blank"><font color="blue">Club 40 Racing</font></a> on Facebook. Join the social network.</font></td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+   </table> -->
+
+    <div [hidden]='!ShowFullHeader()'>
+
+      <table >
+        <tr>
+        <td style="padding-left: 8px; padding-right: 8px;">
+          <table class="HeaderTable">
+          <tr>
+              <td rowspan="2" class="HeaderTableCell">
+                <div style="width:257px; height:83px;" >
+                  <img alt="RCPRO" src="../../assets/img/LogoAnimated.gif" title="RCPRO Home" style="width:257px; height:83px" onclick="javascript:document.location.href='http://RCPylonSuppliers.com'"/>
+                </div>
+              </td>
+              <td class="HeaderTableCell HeaderTableMissionStatement">
+                Spreading the fun and excitement of pylon racing to all R/C modelers regardless of the type of aircraft they build or fly, from Park Flyers to Giant Scale, on 2 pole or 3 pole pylon courses.
+              </td>
+            </tr>
+            <tr>
+              <td class="HeaderTableCell HeaderTableSocialNetwork">Visit
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/pages/RCPROorg/223516891052909" target="_blank">RCPRO.org</a>
+                <span>, </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/rcwarbirdracing" target="_blank">Warbird Racing</a>
+                <span>, </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/warbird80" target="_blank">Warbird 80</a>
+                <span>, </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/club40racing" target="_blank">Club 40</a>
+                <span>, and </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/club40electric" target="_blank">Club 40 Electric</a>
+                <span> on Facebook.</span>
+                <!-- <span> on Facebook. Join the social network.</span> -->
+              </td>
+            </tr>
+          </table>
+        </td>
+        </tr>
+    </table>
+
+    <div style="padding-left: 8px; padding-right: 8px;">width = {{PlatformWidth()}}</div>
+
+  </div> <!-- table full header -->
+
+  <div [hidden]='ShowFullHeader()'>
+
+    <table >
+      <tr>
+        <td style="padding-left: 8px; padding-right: 8px;">
+          <table class="HeaderTable">
+            <tr>
+              <td class="HeaderTableCell HeaderTableMissionStatement">
+                Spreading the fun and excitement of pylon racing to all R/C modelers regardless of the type of aircraft they build or fly, from Park Flyers to Giant Scale, on 2 pole or 3 pole pylon courses.
+              </td>
+            </tr>
+            <tr>
+              <td class="HeaderTableCell HeaderTableSocialNetwork">Visit
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/pages/RCPROorg/223516891052909" target="_blank">RCPRO.org</a>
+                <span>, </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/rcwarbirdracing" target="_blank">Warbird Racing</a>
+                <span>, </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/warbird80" target="_blank">Warbird 80</a>
+                <span>, </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/club40racing" target="_blank">Club 40</a>
+                <span>, and </span>
+                <a class="HeaderTableSocialNetworkLink" href="http://www.facebook.com/club40electric" target="_blank">Club 40 Electric</a>
+                <span> on Facebook.</span>
+                <!-- <span> on Facebook. Join the social network.</span> -->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+  <div style="padding-left: 8px; padding-right: 8px;">width = {{PlatformWidth()}}</div>
+
+</div> <!-- table partial header -->
+
+</div> <!-- container -->
+
+</ion-content>
+
